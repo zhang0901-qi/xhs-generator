@@ -25,4 +25,4 @@ def generate_xhs(theme, qwen_api_key):
         "theme": theme
     })
     return result
-print(generate_xhs("螺蛳粉", os.getenv("DASHSCOPE_API_KEY")))
+#(generate_xhs("螺蛳粉", os.getenv("DASHSCOPE_API_KEY")))
